@@ -47,6 +47,11 @@ describe "User pages" do
 
         it { should have_selector('title', text: user.name) }
         it { should have_selector('div.flash.success', text: 'Welcome') }
+<<<<<<< HEAD
+=======
+
+        it { should have_link('Sign out') }
+>>>>>>> sign-in-out
       end
     end
 
